@@ -1,0 +1,147 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\1.jpg" />
+    <None Remove="Images\10.jpg" />
+    <None Remove="Images\11.jpg" />
+    <None Remove="Images\12.jpg" />
+    <None Remove="Images\13.jpg" />
+    <None Remove="Images\14.jpg" />
+    <None Remove="Images\15.jpg" />
+    <None Remove="Images\16.jpg" />
+    <None Remove="Images\17.jpg" />
+    <None Remove="Images\18.jpg" />
+    <None Remove="Images\19.jpg" />
+    <None Remove="Images\2.jpg" />
+    <None Remove="Images\20.jpg" />
+    <None Remove="Images\21.jpg" />
+    <None Remove="Images\22.jpg" />
+    <None Remove="Images\23.jpg" />
+    <None Remove="Images\24.jpg" />
+    <None Remove="Images\25.jpg" />
+    <None Remove="Images\26.jpg" />
+    <None Remove="Images\27.jpg" />
+    <None Remove="Images\28.png" />
+    <None Remove="Images\29.jpg" />
+    <None Remove="Images\3.jpg" />
+    <None Remove="Images\30.jpg" />
+    <None Remove="Images\4.jpg" />
+    <None Remove="Images\5.jpg" />
+    <None Remove="Images\6.jpg" />
+    <None Remove="Images\7.jpg" />
+    <None Remove="Images\8.jpg" />
+    <None Remove="Images\9.jpg" />
+    <None Remove="Images\osn.jpg" />
+    <None Remove="Images\task1.png" />
+    <None Remove="Images\task10.png" />
+    <None Remove="Images\task11.png" />
+    <None Remove="Images\task12.png" />
+    <None Remove="Images\task13.png" />
+    <None Remove="Images\task14.png" />
+    <None Remove="Images\task15.png" />
+    <None Remove="Images\task16.png" />
+    <None Remove="Images\task17.png" />
+    <None Remove="Images\task18.png" />
+    <None Remove="Images\task19.png" />
+    <None Remove="Images\task2.png" />
+    <None Remove="Images\task20.png" />
+    <None Remove="Images\task21.png" />
+    <None Remove="Images\task22.png" />
+    <None Remove="Images\task23.png" />
+    <None Remove="Images\task24.png" />
+    <None Remove="Images\task25.png" />
+    <None Remove="Images\task26.png" />
+    <None Remove="Images\task27.png" />
+    <None Remove="Images\task28.png" />
+    <None Remove="Images\task29.png" />
+    <None Remove="Images\task3.png" />
+    <None Remove="Images\task30.png" />
+    <None Remove="Images\task4.png" />
+    <None Remove="Images\task5.png" />
+    <None Remove="Images\task6.png" />
+    <None Remove="Images\task7.png" />
+    <None Remove="Images\task8.png" />
+    <None Remove="Images\task9.png" />
+    <None Remove="View\Pages\TaskPages\1646918962_35-kartinkin-net-p-kartinki-dengi-rubli-40.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\23.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\1.jpg" />
+    <Resource Include="Images\10.jpg" />
+    <Resource Include="Images\11.jpg" />
+    <Resource Include="Images\12.jpg" />
+    <Resource Include="Images\13.jpg" />
+    <Resource Include="Images\14.jpg" />
+    <Resource Include="Images\15.jpg" />
+    <Resource Include="Images\16.jpg" />
+    <Resource Include="Images\17.jpg" />
+    <Resource Include="Images\18.jpg" />
+    <Resource Include="Images\19.jpg" />
+    <Resource Include="Images\2.jpg" />
+    <Resource Include="Images\20.jpg" />
+    <Resource Include="Images\21.jpg" />
+    <Resource Include="Images\22.jpg" />
+    <Resource Include="Images\24.jpg" />
+    <Resource Include="Images\25.jpg" />
+    <Resource Include="Images\26.jpg" />
+    <Resource Include="Images\27.jpg" />
+    <Resource Include="Images\28.png" />
+    <Resource Include="Images\29.jpg" />
+    <Resource Include="Images\3.jpg" />
+    <Resource Include="Images\30.jpg" />
+    <Resource Include="Images\4.jpg" />
+    <Resource Include="Images\5.jpg" />
+    <Resource Include="Images\6.jpg" />
+    <Resource Include="Images\7.jpg" />
+    <Resource Include="Images\8.jpg" />
+    <Resource Include="Images\9.jpg" />
+    <Resource Include="Images\osn.jpg" />
+    <Resource Include="Images\task1.png" />
+    <Resource Include="Images\task10.png" />
+    <Resource Include="Images\task11.png" />
+    <Resource Include="Images\task12.png" />
+    <Resource Include="Images\task13.png" />
+    <Resource Include="Images\task14.png" />
+    <Resource Include="Images\task15.png" />
+    <Resource Include="Images\task16.png" />
+    <Resource Include="Images\task17.png" />
+    <Resource Include="Images\task18.png" />
+    <Resource Include="Images\task19.png" />
+    <Resource Include="Images\task2.png" />
+    <Resource Include="Images\task20.png" />
+    <Resource Include="Images\task21.png" />
+    <Resource Include="Images\task22.png" />
+    <Resource Include="Images\task23.png" />
+    <Resource Include="Images\task24.png" />
+    <Resource Include="Images\task25.png" />
+    <Resource Include="Images\task26.png" />
+    <Resource Include="Images\task27.png" />
+    <Resource Include="Images\task28.png" />
+    <Resource Include="Images\task29.png" />
+    <Resource Include="Images\task3.png" />
+    <Resource Include="Images\task30.png" />
+    <Resource Include="Images\task4.png" />
+    <Resource Include="Images\task5.png" />
+    <Resource Include="Images\task6.png" />
+    <Resource Include="Images\task7.png" />
+    <Resource Include="Images\task8.png" />
+    <Resource Include="Images\task9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
